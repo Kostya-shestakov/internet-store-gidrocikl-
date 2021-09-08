@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="js/ion.rangeSlider.min.css">
+  <link rel="stylesheet" href="/css/media.css">
+  <title>интернет магазин</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">
+                  Магазины
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">
+                  Акции
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">
+                  Доставка и оплата
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" class="logo">
+            <img src="./images/header-logo.svg" alt="logo" class="logo__img">
+          </a>
+          <div class="header__box">
+            <p class="header__address">
+              Москва, ул. Науки 25
+            </p>
+            <ul class="user-list">
+              <li class="user__list-item">
+                <a href="#" class="user__list-link"><img src="/images/like.svg" alt="hearn.svg"></a>
+              </li>
+              <li class="user__list-item">
+                <a href="#" class="user__list-link"><img src="/images/user.svg" alt="user.svg"></a>
+              </li>
+              <li class="user__list-item">
+                <a href="#" class="basket user__list-link"><img src="/images/basket.svg" alt="basket.svg">
+                  <p class="basket__num">0</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <ul class="menu-categories">
+          <li class="menu__categories__item">
+            <a href="#" class="menu__categories-link">Квадроциклы</a>
+          </li>
+          <li class="menu__categories__item">
+            <a href="#" class="menu__categories-link">Лодки</a>
+          </li>
+          <li class="menu__categories__item">
+            <a href="#" class="menu__categories-link">Гидроциклы</a>
+          </li>
+          <li class="menu__categories__item">
+            <a href="#" class="menu__categories-link">Лодки</a>
+          </li>
+          <li class="menu__categories__item">
+            <a href="#" class="menu__categories-link">Вездеходы</a>
+          </li>
+          <li class="menu__categories__item">
+            <a href="#" class="menu__categories-link">Снегоходы</a>
+          </li>
+          <li class="menu__categories__item">
+            <a href="#" class="menu__categories-link">Двигатели</a>
+          </li>
+          <li class="menu__categories__item">
+            <a href="#" class="menu__categories-link">Запчасти</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="breadcrumbs">
+    <div class="container">
+      <ul class="breadcrums__list">
+        <li onclick="start()" class="breadcrums__list-item"><a href="#">Главная</a></li>
+        <li onclick="redirectIndex()" class="breadcrums__list-item"><span href="#">Гидроциклы</span></li>
+        <li class="breadcrums__list-item"><a href="#">Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="product-card">
+    <div class="container">
+      <div class="product-card__inner">
+        <div class="product-card__img-box product-item-sale">
+          <img src="/images/card-1.png" class="product-card__img">
+          <p class="product-card__price">1 200 475 ₽</p>
+          <p class="product-card__price-new">1 100 475 ₽</p>
+          <a href="#" class="product-card__link">Нашли дешевле? Снизиим цену!</a>
+          <div class="product-card__btn product-card__btn-mobile">
+            <button type="submit">купить</button>
+          </div>
+        </div>
+        <div class="product-card__content">
+          <h1 class="product-card-title">Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic</h1>
+          <p class="product-card__code">Код товара: 366666-2</p>
+          <div class="product-card__btns">
+            <a href="#" class="product-card__icon-favorite"><img src="/images/favorite.svg">
+            </a>
+            <a href="#" class="product-card__icon-comparsion">
+              <img src="/images/rate.svg">
+            </a>
+            <div class="simple-rating">
+              <div class="simple-rating__items">
+                <input name="simple-rating" id="simple-rating__5" type="radio" class="simple-rating__item"
+                  name="simple-rating__item" value="5">
+                <label for="simple-rating__5" class="simple-rating__label"></label>
+                <input name="simple-rating" checked id="simple-rating__4" type="radio" class="simple-rating__item"
+                  name="simple-rating__item" value="4">
+                <label for="simple-rating__4" class="simple-rating__label"></label>
+                <input name="simple-rating" id="simple-rating__3" type="radio" class="simple-rating__item"
+                  name="simple-rating__item" value="3">
+                <label for="simple-rating__3" class="simple-rating__label"></label>
+                <input name="simple-rating" id="simple-rating__2" type="radio" class="simple-rating__item"
+                  name="simple-rating__item" value="2">
+                <label for="simple-rating__2" class="simple-rating__label"></label>
+                <input name="simple-rating" id="simple-rating__1" type="radio" class="simple-rating__item"
+                  name="simple-rating__item" value="1">
+                <label for="simple-rating__1" class="simple-rating__label"></label>
+              </div>
+            </div>
+          </div>
+          <div class="tabs-wrapper product-card__tabs">
+            <div class="tabs">
+              <a href="#product-1" class="tab tab-active product-card__tab">
+                характеристики
+              </a>
+              <a href="#product-2" class="tab product-card__tab">
+                наличие в магазине
+              </a>
+            </div>
+            <div class="tabs-container">
+              <div id="#product-1" class="tabs-content product-card__tab-content tabs-content-active">
+                <ul class="product-card__list">
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Производитель</div>
+                    <div class="product-card__item-right">Канада</div>
+                  </li>
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Количество мест, шт: </div>
+                    <div class="product-card__item-right">3</div>
+                  </li>
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Мощность, л.с.</div>
+                    <div class="product-card__item-right">155</div>
+                  </li>
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Тип двигателя</div>
+                    <div class="product-card__item-right">Бензиновый</div>
+                  </li>
+                  <li class="product-card__item">
+                    <div class="product-card__item-left">Год выпуска</div>
+                    <div class="product-card__item-right">2018</div>
+                  </li>
+                </ul>
+                <a href="#" class="product-card__more">посмотреть ещё</a> <br>
+                <button class="product-card__btn">купить</button>
+              </div>
+              <div id="#product-2" class="tabs-content product-card__tab-content">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="card__tabs">
+    <div class="container">
+      <div class="tabs-wrapper">
+        <div class="tabs card__tab-box">
+          <a href="#product-card__tabs-1" class="tab card__tab" о товаре></a>
+          <a href="#product-card__tabs-2" class="tab card__tab">характеристики</a>
+          <a href="#product-card__tabs-3" class="tab card__tab">отзывы</a>
+          <a href="#product-card__tabs-4" class="tab card__tab tab-active">самовывоз</a>
+          <a href="#product-card__tabs-5" class="tab card__tab">доставка</a>
+          <a href="#product-card__tabs-6" class="tab card__tab">сервис</a>
+          <a href="#product-card__tabs-7" class="tab card__tab">гарантии</a>
+        </div>
+        <div class="tabs-container">
+          <div id="product-card__tabs-1" class="card__tab-content tabs-content ">content</div>
+          <div id="product-card__tabs-2" class="card__tab-content tabs-content ">content</div>
+          <div id="product-card__tabs-3" class="card__tab-content tabs-content ">content</div>
+          <div id="product-card__tabs-4" class="card__tab-content tabs-content tabs-content-active">
+            <form>
+              <div class="card__top-line">
+                <label class="card__label-search">
+                  магазин
+                  <input class="card__input-search" type="text">
+                </label>
+                <label class="card__label-pickup"><input type="radio" name="pickup" class="filter-style">забрать
+                  сегодня</label>
+                <label class="card__label-pickup"><input type="radio" name="pickup" class="filter-style" checked>забрать
+                  в течении недели</label>
+              </div>
+              <ul class="card__list">
+                <li class="card__list__item card__list-itemtitle">
+                  <div class="card__list-address ">адрес</div>
+                  <div class="card__list-wirkhours ">режим работы</div>
+                  <div class="card__list-avialable card__list-avialable-title">доступно</div>
+                  <div class="card__list-num card__list-num-title">количество</div>
+                  <div class="card__list-btn card__list-btn-title"></div>
+                </li>
+                <li class="card__list__item">
+                  <div class="card__list-address">москва, ул.науки 25</div>
+                  <div class="card__list-wirkhours">
+                    <div class="wirkhours">
+                      <span>пн-сб:</span>
+                      <span>08:00-19:00</span>
+                    </div>
+                    <div class="wirkhours">
+                      <span>вс:</span>
+                      <span>09:00-17:00</span>
+
+                    </div>
+                  </div>
+                  <div class="card__list-avialable">в наличии</div>
+                  <div class="card__list-num">1</div>
+                  <div class="card__list-btn">
+                    <button type="submit">купить</button>
+                  </div>
+                </li>
+                <li class="card__list__item">
+                  <div class="card__list-address">санкт-петербург, ул. Красная 19</div>
+                  <div class="card__list-wirkhours">
+                    <div class="wirkhours">
+                      <span>пн-сб:</span>
+                      <span>08:00-19:00</span>
+                    </div>
+                    <div class="wirkhours">
+                      <span>вс:</span>
+                      <span>09:00-17:00</span>
+
+                    </div>
+                  </div>
+                  <div class="card__list-avialable">в наличии</div>
+                  <div class="card__list-num">2</div>
+                  <div class="card__list-btn">
+                    <button type="submit">купить</button>
+                  </div>
+                </li>
+                <li class="card__list__item">
+                  <div class="card__list-address">москва, ул. Южная 134</div>
+                  <div class="card__list-wirkhours">
+                    <div class="wirkhours">
+                      <span>пн-сб:</span>
+                      <span>08:00-19:00</span>
+                    </div>
+                    <div class="wirkhours">
+                      <span>вс:</span>
+                      <span>09:00-17:00</span>
+
+                    </div>
+                  </div>
+                  <div class="card__list-avialable">нет в наличии</div>
+                  <div class="card__list-num">0</div>
+                  <div class="card__list-btn">
+                    <button type="submit">купить</button>
+                  </div>
+                </li>
+                <li class="card__list__item">
+                  <div class="card__list-address">Киев, ул. Шевченко 167</div>
+                  <div class="card__list-wirkhours">
+                    <div class="wirkhours">
+                      <span>пн-сб:</span>
+                      <span>08:00-19:00</span>
+                    </div>
+                    <div class="wirkhours">
+                      <span>вс:</span>
+                      <span>09:00-17:00</span>
+                    </div>
+                  </div>
+                  <div class="card__list-avialable">нет в наличии<div>
+                      <div class="card__list-num">0</div>
+                      <div class="card__list-btn">
+                        <button type="submit">купить</button>
+                      </div>
+                </li>
+              </ul>
+            </form>
+          </div>
+          <div id="product-card__tabs-5" class="card__tab-content tabs-content ">content</div>
+          <div id="product-card__tabs-6" class="card__tab-content tabs-content ">content</div>
+          <div id="product-card__tabs-7" class="card__tab-content tabs-content ">content</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__top-inner">
+          <div class="footer__top-item footer__top-newslatter">
+            <h6 class="footer__top-title">Подпишитесь на нашу рассылку
+              и узнавайте о акциях быстрее</h6>
+            <form class="footer-form">
+              <input type="text" placeholder="Введите ваш e-mail:" class="footer-form__input">
+              <button type="submit" class="footer-btn">Отправить</button>
+            </form>
+          </div>
+          <div class="footer__top-item">
+            <h6 class="footer__top-title">Информация</h6>
+            <ul class="footer-list">
+              <li class="footer-list__item"><a href="#">О компании</a></li>
+              <li class="footer-list__item"><a href="#">Контакты</a></li>
+              <li class="footer-list__item"><a href="#"> Акции</a></li>
+              <li class="footer-list__item"><a href="#">Магазины</a></li>
+            </ul>
+          </div>
+          <div class="footer__top-item footer-top__social">
+            <h6 class="footer__top-title">Интернет-магазин</h6>
+            <ul class="footer-list">
+              <li class="footer-list__item"><a href="#">Доставка и самовывоз</a></li>
+              <li class="footer-list__item"><a href="#">Оплата</a></li>
+              <li class="footer-list__item"><a href="#">Возврат-обмен</a></li>
+              <li class="footer-list__item"><a href="#">Новости</a></li>
+            </ul>
+          </div>
+          <div class="footer__top-item">
+            <ul class="social-list">
+              <li class="social-list__item"><a href="#">
+                  <img src="images/inst.svg" alt="">
+                </a></li>
+              <li class="social-list__item"><a href="#">
+                  <img src="images/vk.svg" alt="">
+                </a></li>
+              <li class="social-list__item"><a href="#">
+                  <img src="images/fb.svg" alt="">
+                </a></li>
+              <li class="social-list__item"><a href="#">
+                  <img src="images/yt.svg" alt="">
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <a href="#" class="footer__bottom-link">Договор оферты</a>
+        <a href="#" class="footer__bottom-link">Политика обработки персональных данных</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="/js/jquery.formstyler.js"></script>
+  <script src="js/jquery.formstyler.min.js"></script>
+  <script src="/js/ion.rangeSlider.min.js"></script>
+  <script src="js/slick.min.js"></script>
+
+
+</body>
+
+</html>
