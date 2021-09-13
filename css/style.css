@@ -533,7 +533,7 @@ body {
     position: absolute;
     top: 30%;
     opacity: 0;
-    display: inline-block;
+    display: block;
     transition: all .3s;
 }
 
@@ -773,6 +773,7 @@ body {
 
 .breadcrums__list-item {
     display: inline-block;
+
     padding-right: 16px;
     margin-right: 10px;
     position: relative;
@@ -1494,3 +1495,4 @@ body {
 .product-card__btn-mobile {
     display: none;
 }
+
