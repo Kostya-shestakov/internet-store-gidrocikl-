@@ -13,6 +13,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/media.css">
+  <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+</head>
+
   <title>internet-store</title>
 </head>
 
@@ -54,8 +57,9 @@
               Москва, ул. Науки 25
             </p>
             <ul class="user-list">
+
               <li class="user__list-item">
-                <a href="#" class="user__list-link"><img src="./images/like.svg" alt="hearn.svg"></a>
+                <a href="#" style="margin-left: 30px;" class="user__list-link"><img src="./images/like.svg" alt="hearn.svg"></a>
               </li>
               <li class="user__list-item">
                 <a href="#" class="user__list-link"><img src="./images/user.svg" alt="user.svg"></a>
@@ -177,10 +181,9 @@
           <li class="menu__categories__item">
             <a href="#" class="menu__categories-link">Лодки</a>
           </li>
-
-          <li class="menu__categories__item">
-            <a onclick="redirectIndex()" href="#" class="menu__categories-link">Гидроциклы</a>
-          </li>
+          <li class="menu__categories__item tooltip">Гидроциклы
+            <a onclick="redirectIndex()" href="#"  class="menu__categories-link tooltiptext">click me</a>
+          </>
           <li class="menu__categories__item">
             <a href="#" class="menu__categories-link">Лодки</a>
           </li>
