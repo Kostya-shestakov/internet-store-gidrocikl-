@@ -364,7 +364,7 @@ body {
 .search__content-input {
     margin-bottom: 19px;
     background: #F0F0F4;
-    padding: 5px 20px;
+    padding: 15px 20px;
     border-radius: 3px;
     border: none;
     font-size: 16px;
@@ -1433,7 +1433,9 @@ body {
     margin-right: 60px;
 }
 
-.card__list-btn { margin-left: auto;}
+.card__list-btn {
+    margin-left: auto;
+}
 
 .card__list-btn button {
     font-size: 13px;
@@ -1451,7 +1453,9 @@ body {
     justify-content: space-around;
 }
 
-.menu__btn { display: none; }
+.menu__btn {
+    display: none;
+}
 
 .menu-mobile__list {
     width: 243px;
@@ -1463,11 +1467,13 @@ body {
     background-color: #fff;
 }
 
-.menu__mobile-line-wrapper {display: none;}
+.menu__mobile-line-wrapper {
+    display: none;
+}
 
 .menu-mobile__item {
     position: relative;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1) ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .menu-mobile__link {
@@ -1478,15 +1484,22 @@ body {
 
 .menu-mobile__img {
     position: absolute;
-    left:11px; bottom: 0;top: 60px;
+    left: 11px;
+    bottom: 0;
+    top: 60px;
 }
 
-.menu-mobile__list-active { transform: translateX(0%); }
+.menu-mobile__list-active {
+    transform: translateX(0%);
+}
 
 .products-slider .slick-dots {
-    bottom: -30px;}
+    bottom: -30px;
+}
 
-.products-slider .slick-dots button { background-color: #C4C4C4; }
+.products-slider .slick-dots button {
+    background-color: #C4C4C4;
+}
 
 .products-slider .slick-dots .slick-active button {
     background-color: #1C62CD;
@@ -1495,4 +1508,47 @@ body {
 .product-card__btn-mobile {
     display: none;
 }
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltiptext {
+      cursor: pointer;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .tooltip .tooltiptext {
+    width: 100px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
 

@@ -98,3 +98,5 @@ function redirectIndex() {
 function product() {
     window.location.assign('product.html')
 }
+
+
